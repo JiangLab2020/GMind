@@ -1,15 +1,15 @@
-# PUGTA
-A tool for mining of plant UGTs.
+# Gene_Modeller
+A novel plant UGTs annotated process for the mining of UGTs in plant genomes
 
 # Overview
 
-PUGTA is a command line program (in Perl) based on Augustus, GlimmerHMM, 
+Gene_Modeller is a command line program (in Perl) based on Augustus, GlimmerHMM, 
 which is used for sufficiently mining of UDP-glycosyltransferases from plant genomes.
 
 
 # Installation
 
-Running PUGTA requires a Linux system with Bash. The following dependencies
+Running Gene_Modeller requires a Linux system with Bash. The following dependencies
 need to be satisfied.
 
 ### Perl dependencies
@@ -58,9 +58,9 @@ The tool is applicable to complete as well as draft genome assemblies. Every seq
     >IV contig 25
     sequence: IV
 
-## Running PUGTA
+## Running Gene_Modeller
 
-To run PUGTA, use the following command:
+To run Gene_Modeller, use the following command:
 
     Genome_Annoation.pl TargetDir CPU Pfam Query_DB
 
@@ -68,8 +68,8 @@ To run PUGTA, use the following command:
 ## Output
 
 ## About
-Yuanqian Liu, Jian Cheng, Huifeng Jiang
+Yuanqian Liu, Xiaoping Liao, Qian Wang, Zihe Li, Zhigang Li, Jian Cheng, Huifeng Jiang.
 
-Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, China
+Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, China.
 
 Reference: []
