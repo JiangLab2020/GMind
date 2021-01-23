@@ -3,18 +3,7 @@ A novel plant UGTs annotated process for the mining of UGTs in plant genomes
 
 # Overview
 
-GMind is a command line program (in Perl) based on Augustus, GlimmerHMM, 
-which is used for sufficiently mining of UDP-glycosyltransferases from plant genomes.
-Firstly, the protein sequences of the known plant UGTs from an initial plant UGT database
-will be mapped into the un-annotated plant genomes, and the mapped regions will be extracted
-for the next annotation. Secondly, the extracted UGTs regions were independently de nove
-annotated by: 1) Augustus with the model training from all annotated UGTs in the 195 plant genomes,
-2) Augustus with the model species of Arabidopsis thaliana and 3) GlimmerHMM with model species
-of A. thaliana. Thirdly, HMMER and UGT domain (PF00201) from Pfam were used to filter UGTs
-from all these annotated proteins. Fourthly, the filtered UGTs were evaluated by calculating
-accuracy score, the optimal UGTs were selected as candidates, while the UGTs with bad sores would
-be re-annotated by removing the good UGTs from the mapped regions. Finally, all these candidate
-UGTs would be output as the result of genomic annotation. 
+GMind is a command line program (in Perl) based on Augustus, GlimmerHMM, which is used for sufficiently mining of UDP-glycosyltransferases from plant genomes. Firstly, the protein sequences of the known plant UGTs from an initial plant UGT database will be mapped into the un-annotated plant genomes, and the mapped regions will be extracted for the next annotation. Secondly, the extracted UGTs regions were independently de nove annotated by: 1) Augustus with the model training from all annotated UGTs in the 195 plant genomes, 2) Augustus with the model species of Arabidopsis thaliana and 3) GlimmerHMM with model species of A. thaliana. Thirdly, HMMER and UGT domain (PF00201) from Pfam were used to filter UGTs from all these annotated proteins. Fourthly, the filtered UGTs were evaluated by calculating accuracy score, the optimal UGTs were selected as candidates, while the UGTs with bad sores would be re-annotated by removing the good UGTs from the mapped regions. Finally, all these candidate UGTs would be output as the result of genomic annotation. 
 
 
 # Installation
