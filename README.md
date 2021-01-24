@@ -51,7 +51,10 @@ ncbi-blast+ (available at https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_
     cd your_path_to_GMind
     perl lib.pl
 
-## 3 Add the path to environment:
+## 3 Add the trained plant UGT model to Augustus path
+    cp -r /your_path_to_GMind/lib/PUGT /your_path_to_Augustus/config/species/
+
+## 4 Add the path to environment:
     export GMind=/your_path_to_GMind/bin
     export GMind_lib=/your_path_to_GMind/lib
 
