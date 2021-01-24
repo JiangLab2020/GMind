@@ -80,7 +80,7 @@ The tool is applicable to complete as well as draft genome assemblies. Every seq
 
 To run GMind, use the following command:
 
-    perl $GMind/GMind.pl your_path_to_genomic_Folder CPU
+    perl $GMind/GMind.pl your_absolutepath_to_genomic_Folder CPU
 
 
 ## Output
