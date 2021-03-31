@@ -5,13 +5,12 @@ use Bio::Perl;
 my $InputFA = $ARGV[0];
 
 my $GMind=$ENV{'GMind'};
+my $TrainPath =$ENV{'TrainPath'};
 
 my @b=split(/[\/\.]/,$InputFA); my $Target=$b[$#b-1];
 my @spe=split(/\_/,$Target);
 my $Abbr        = $spe[0];
 my %AList=();
-
-my $TrainPath = "/public/home/chengj/Programs/GlimmerHMM/trained_dir/arabidopsis";
 
 my %BList=();
 if ( !(-e "$Target\_glimmerHMM.gff") ) {

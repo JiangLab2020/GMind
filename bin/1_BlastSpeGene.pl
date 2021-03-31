@@ -22,7 +22,7 @@ if ( $ARGV[4] ) {
 }
 
 my $GMind=$ENV{'GMind'};
-#my $Identity = 10;
+my $GMind_lib=$ENV{'GMind_lib'};
 
 my $CutLen   = 20;
 

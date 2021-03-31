@@ -30,15 +30,6 @@ my @sp=split(/\_/,$species);
 $Abbr=$sp[0]."_aug".$refTar;
 
 my %NList=();	
-open INPUT,"/public/home/chengj/Database/Genomes_Map/Viridiplantae/DownloadGenome.txt";
-while (<INPUT>) {
-	chomp($_);
-	my @a=split(/\t/,$_);
-	my @b=split(/\./,$a[$#a]);
-	$NList{$b[0]}=$a[0];
-}
-close INPUT;
-
 print "####  1 Counting the number of sequences\n";
 ########################################################################################################
 my $Len=0;

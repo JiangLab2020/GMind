@@ -10,6 +10,9 @@ if ( $ARGV[1] ) {
 
 my $GMind_lib=$ENV{'GMind_lib'};
 my $PfamPath = "$GMind_lib\/Pfam-A.hmm";
+if ( !(-e "$GMind_lib\/Pfam-A\.hmm.h3f") ) {
+	`hmmpress $PfamPath`;
+}	
 
 my $PF_ID   = 0; 
 if ( $ARGV[2] ) {
