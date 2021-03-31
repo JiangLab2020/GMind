@@ -39,7 +39,10 @@ Augustus3 (available at http://bioinf.uni-greifswald.de/augustus/binaries/)
 
 Add the path to environment:/your_path_to_Augustus3/bin;
 
- AUGUSTUS_CONFIG_PATH=/your_path_to_Augustus3/config;/your_path_to_Augustus3/scripts
+/your_path_to_Augustus3/scripts
+
+ AUGUSTUS_CONFIG_PATH=/your_path_to_Augustus3/config;
+ 
 
 ### GlimmerHMM
 
