@@ -30,27 +30,34 @@ These modules are available at CPAN and can be installed/updated with
 ### HMMER
 
 HMMER3 (available at http://hmmer.org/)
+
 Add the path to environment:/your_path_to_HMMER3/bin
 
 ### Augustus
 
 Augustus3 (available at http://bioinf.uni-greifswald.de/augustus/binaries/)
+
 Add the path to environment:/your_path_to_Augustus3/bin;
+
  AUGUSTUS_CONFIG_PATH=/your_path_to_Augustus3/config;/your_path_to_Augustus3/scripts
 
 ### GlimmerHMM
 
 GlimmerHMM (available at http://ccb.jhu.edu/software/glimmerhmm/)
+
 Add the path to environment:/your_path_to_GlimmerHMM/bin;
+
 export TrainPath=/your_path_to_GlimmerHMM/trained_dir/arabidopsis
 
 ### Clustal Omega
 
 Clustal Omega (available at http://www.clustal.org/omega/)
+
 Add the path to environment:/your_path_to_Clustal_Omega/bin
 
 ### Blast+
 ncbi-blast+ (available at https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
+
 Add the path to environment:/your_path_to_Blast+/bin
 
 ## 2 Download the Pfam
