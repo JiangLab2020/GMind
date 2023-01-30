@@ -104,10 +104,9 @@ To run GMind, use the following command:
 * The divergence score of each protein compared with PUGTDB: your_path_to_genomic_Folder/Resultdir/GMind.txt 
 
 ## About
-Yuanqian Liu, Xiaoping Liao, Qian Wang, Zihe Li, Zhigang Li, Jian Cheng, Huifeng Jiang.
+
+Reference: [Liu, Y., Wang, Q., Liu, X., Cheng, J., Zhang, L., Chu, H., Wang, R., Li, H., Chang, H., Ahmed, N., et al. (2023). pUGTdb: a comprehensive plant UGTs database. Molecular Plant https://doi.org/10.1016/j.molp.2023.01.003.]
 
 Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, China.
-
-Reference: []
 
 Contact: jianglab_admin@tib.cas.cn.
