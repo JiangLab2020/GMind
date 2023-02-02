@@ -105,7 +105,7 @@ To run GMind, use the following command:
 
 ## About
 
-Reference: [Liu Yuqian, Wang Qian, Liu Xiaonan, Cheng Jian, et al. (2023). pUGTdb: A comprehensive database of plant UDP-dependent glycosyltransferases. Molecular Plant https://doi.org/10.1016/j.molp.2023.01.003.]
+Reference: [ Liu Yuqian, Wang Qian, Liu Xiaonan, Cheng Jian, et al. (2023). pUGTdb: A comprehensive database of plant UDP-dependent glycosyltransferases. Molecular Plant https://doi.org/10.1016/j.molp.2023.01.003. ]
 
 Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, China.
 
